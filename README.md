@@ -1,4 +1,6 @@
 # Hyperbolic Models in Elasticity
+Note: This is a sample of the work completed at the 2025 Modeling and Simulation with PDEs Undergraduate Summer School at Texas A&M University. The visualizations in the file are animated when they are run, even though they appear static on GitHub.
+
 This code computes the solutions to certain partial differential equations involved in the deformation of solid objects under externally acting forces. In particular, assuming the deformation is small, the 1-dimensional balance of momentum equation in $t$ and $x$ becomes
 
 $$\partial_t^2 u - c^2 \partial_x^2 u = 0,$$
@@ -29,5 +31,4 @@ $$\partial_t u + \partial_x v = 0,$$
 
 $$\partial_t v + c^2 (1 + \partial_x u)\left(\partial_x u + \frac{1}{2}(\partial_x u)^2\right) = 0.$$
 
-
-
+We also simulate an elastic string subject to gravity in both the linear and nonlinear cases.
