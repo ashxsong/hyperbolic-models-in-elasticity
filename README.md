@@ -17,7 +17,7 @@ $$\partial_t u + \partial_x v - \epsilon \Delta u = 0,$$
 
 $$\partial_t v + c^2 \partial_x u - \epsilon \Delta v = 0,$$
 
-where $\epsilon = c_\text{stable} h^2$ and $c_\text{stable}$ is a real number chosen between $1$ and $32$.
+where $\epsilon = c_\text{stable} h^2$ and $c_\text{stable}$ is a real number chosen between 1 and 32.
 
 Now, we consider the 1-dimensional nonlinear balance of momentum equation in $t$ and $x$, which is
 
@@ -27,7 +27,7 @@ This equation can be rewritten as the following system of first-order partial di
 
 $$\partial_t u + \partial_x v = 0,$$
 
-$$\partial_t v + c^2 (1 + \partial_x u)\left(\partial_x u + \frac{1}{2}(\partial_x u)^2\right).$$
+$$\partial_t v + c^2 (1 + \partial_x u)\left(\partial_x u + \frac{1}{2}(\partial_x u)^2\right) = 0.$$
 
 
 
